@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:wp="http://www.evexiallc.com"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="35"
+   id="svg9493"
+   inkscape:export-filename="/datas/Projs/Cliparts Stocker/led/led_rectangular_h_orange.png"
+   inkscape:export-xdpi="90.000000"
+   inkscape:export-ydpi="90.000000"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="button.svg"
+   sodipodi:version="0.32"
+   width="84"
+   version="1.1">
+  <metadata
+     id="metadata3327">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="Gradients">
+    <linearGradient
+       id="linearGradient5988"
+       inkscape:collect="always">
+      <stop
+         id="stop5990"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0" />
+      <stop
+         id="stop5992"
+         offset="1"
+         style="stop-color:#b3b3b3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5982"
+       inkscape:collect="always">
+      <stop
+         id="stop5984"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         id="stop5986"
+         offset="1"
+         style="stop-color:#e4e3dc;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4622">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0"
+         id="stop4624" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop4626" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4601">
+      <stop
+         style="stop-color:#d6d0c5;stop-opacity:1;"
+         offset="0"
+         id="stop4603" />
+      <stop
+         style="stop-color:#d6d0c5;stop-opacity:0"
+         offset="1"
+         id="stop4605" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5982"
+       id="linearGradient4610"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.7136517,0,0,0.32500005,-98.66885,17.924516)"
+       x1="38"
+       y1="51"
+       x2="38"
+       y2="43" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5988"
+       id="linearGradient4628"
+       x1="42"
+       y1="5.9479613"
+       x2="42"
+       y2="3.2915397"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99999412,0,0,1,-3.0000112,-1.5995557)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4601"
+       id="linearGradient5967"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.7136517,0,0,0.32500005,-98.66885,17.924516)"
+       x1="38"
+       y1="51"
+       x2="38"
+       y2="43" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4622"
+       id="linearGradient5969"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99999412,0,0,1,-3.0000112,-1.7995557)"
+       x1="42"
+       y1="5.9479613"
+       x2="42"
+       y2="3.2915397" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="svg9493"
+     inkscape:cx="76.698111"
+     inkscape:cy="-10.770596"
+     inkscape:document-units="px"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="838"
+     inkscape:window-width="1600"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:zoom="5.0636115"
+     pagecolor="#ffffff"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-maximized="1"
+     showborder="true"
+     gridtolerance="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3329"
+       empspacing="5"
+       visible="false"
+       enabled="true"
+       snapvisiblegridlinesonly="false" />
+  </sodipodi:namedview>
+  <g
+     id="Button"
+     wp:value="0"
+     wp:type="button"
+     onclick="button(this.id)"
+     wp:latch="1"
+     wp:latchTime="100"
+     wp:onId="ButtonOn"
+     wp:offId="ButtonOff">
+    <g
+       id="ButtonOn"
+       transform="translate(-0.5,-0.5)"
+       wp:type="on">
+      <rect
+         ry="2"
+         y="1"
+         x="1"
+         height="34"
+         width="83"
+         id="BackgroundOn"
+         style="fill:#e4e3dc;fill-opacity:1;fill-rule:nonzero;stroke:#003c74;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="scsssss"
+         inkscape:connector-curvature="0"
+         id="HighlightOn"
+         d="m 1.5997464,31.899518 81.9022536,0.1 c -0.0152,0.333726 -0.01787,0.54806 -0.01996,1.157036 -0.0023,0.660879 -0.73604,1.364671 -1.562994,1.364446 L 2.8931687,34.499518 c -0.826954,-2.25e-4 -1.3933006,-0.8798 -1.3933006,-1.6 0,-0.7202 -0.2996342,-1.000488 0.099878,-1 z"
+         style="fill:url(#linearGradient4610);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <path
+         style="fill:url(#linearGradient4628);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 83.319254,4.219 1.417,4.119 C 1.4322,3.785274 1.43487,3.57094 1.43696,2.961964 1.43926,2.301085 2.1730007,1.597293 2.9999538,1.597518 l 79.0258772,0.02148 c 0.826954,2.25e-4 1.393301,0.8798 1.393301,1.6 0,0.7202 0.299634,1.000488 -0.09988,1 z"
+         id="ShadowOn"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="scsssss" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+         x="42.389217"
+         y="22.347359"
+         id="TextOn"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspanOn"
+           x="42.389217"
+           y="22.347359">On Text</tspan></text>
+    </g>
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="ButtonOff"
+       wp:type="off">
+      <rect
+         style="fill:#f3f3ef;fill-opacity:1;fill-rule:nonzero;stroke:#003c74;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="BackgroundOff"
+         width="83"
+         height="34"
+         x="1"
+         y="1"
+         ry="2" />
+      <path
+         style="fill:url(#linearGradient5967);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 1.5997464,31.899518 81.9022536,0.1 c -0.0152,0.333726 -0.01787,0.54806 -0.01996,1.157036 -0.0023,0.660879 -0.73604,1.364671 -1.562994,1.364446 L 2.8931687,34.499518 c -0.826954,-2.25e-4 -1.3933006,-0.8798 -1.3933006,-1.6 0,-0.7202 -0.2996342,-1.000488 0.099878,-1 z"
+         id="ShadowOff"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="scsssss" />
+      <path
+         sodipodi:nodetypes="scsssss"
+         inkscape:connector-curvature="0"
+         id="HighlightOff"
+         d="M 83.319254,4.019 1.417,3.919 C 1.4322,3.585274 1.43487,3.37094 1.43696,2.761964 1.43926,2.101085 2.1730007,1.397293 2.9999538,1.397518 l 79.0258772,0.02148 c 0.826954,2.25e-4 1.393301,0.8798 1.393301,1.6 0,0.7202 0.299634,1.000488 -0.09988,1 z"
+         style="fill:url(#linearGradient5969);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="TextOff"
+         y="21.74707"
+         x="41.588867"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Tahoma;-inkscape-font-specification:Tahoma"
+         xml:space="preserve"><tspan
+           y="21.74707"
+           x="41.588867"
+           id="tspanOff"
+           sodipodi:role="line">Off Text</tspan></text>
+    </g>
+  </g>
+</svg>
