@@ -1,0 +1,58 @@
+Con esto ya anda, para leer arduino + IMU
+
+Crear enlace simbolico
+sudo ln -sf /dev/ttyACM0 /dev/ttyUSB42
+
+Ejecutar MultiWii como sudo
+$ cd MultiWiiConf/application.linux64
+
+$ sudo ./MultiWiiConf
+
+Para modificar los valores del PID hay que hacer click + drag and drop
+
+
+*****************************************************************************
+Para listar los dispositivos seriales
+
+$ ls /dev/ttyACM*
+
+$ ls /dev/ttyUSB*
+
+
+Para cambiar la velocidad del puerto
+
+$ stty -F /dev/ttyUSB42 115200
+
+Para leer el puerto
+
+$ cat /dev/ttyACM0
+
+Ver más en https://wiki.archlinux.org/index.php/arduino#Accessing_serial
+
+*****************************************************************************
+
+"""
+Resumen de la WEB 
+http://www.multiwii.com/forum/viewtopic.php?f=18&t=5930&p=59966&hilit=cant+connect+linux#p59966
+
+Does it appear as /dev/ttyACMn (n probably == 0) in Ubuntu ?
+Are you a member of the group that has access to the device (uucp, or maybe dialout on Ubuntu)? Plug the device in and check.
+
+It may be that multiwiiconf does think /dev/ttyACM0 is a serial device. You can fix this in a number of ways:
+create a symbolic link to an unused ttyUSBx, e.g. 
+CODE: SELECT ALL
+ln -sf /dev/ttyACM0 /dev/ttyUSB42
+or
+In the shell script that runs Multiwiiconf, add to the java command the option (for any tty devices you might like to use):
+CODE: SELECT ALL
+ -Dgnu.io.rxtx.SerialPorts="/dev/ttyACM0:/dev/ttyUSB0:/dev/rfcomm1:/dev/rfcomm2"
+or
+In the shell script that runs Multiwiiconf, add to the java command the option:
+CODE: SELECT ALL
+ -DosName="Linux-all-ports"
+The first option may be automated by a udev rule, e.g.
+CODE: SELECT ALL
+KERNEL=="ttyACM*", ATTRS{product}=="Arduino*", SYMLINK+="arduino ttyUSB9%n"
+
+The above udev rule (for example as /etc/udev/rules.d/20-arduino.rules) would result in symbolic links of /dev/arduino and /dev/ttyUSB90 being created for /dev/ttyACM0.
+"""
