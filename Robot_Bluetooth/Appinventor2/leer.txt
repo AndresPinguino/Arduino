@@ -1,0 +1,7 @@
+".aia------> archivo que se IMPORTA en el appinventor2 para poder 
+modificar la aplicacion"
+
+".apk------>instalador para el celular no modificable."
+
+///PROGRAMA de celular
+PARA Comunicacion Bluetooth-arduino y puente en h////////

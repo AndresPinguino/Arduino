@@ -1,0 +1,21 @@
+############## Para P32 ####################
+
+Copiar QTRSensors.pdl32 en la siguiente ubicacion
+
+C:\pinguino-11\p32\pdl\
+
+Copiar libreria ( QTRSensors.c y QTRSensors.h )
+
+C:\pinguino-11\p32\include\pinguino\libraries
+
+############## Para P8 ####################
+
+Copiar QTRSensors.pdl en la siguiente ubicacion
+
+C:\pinguino-11\p8\pdl\
+
+Copiar libreria ( QTRSensors.c y QTRSensors.h )
+
+C:\pinguino-11\p8\include\pinguino\libraries
+
+LISTO!!

@@ -1,0 +1,6 @@
+QTRSensors.init QTRSensors_init#include <QTRSensors.c>
+QTRSensors.read QTRSensors_read#include <QTRSensors.c>
+QTRSensors.resetCalibrarion QTRSensors_resetCalibration#include <QTRSensors.c>
+QTRSensors.calibrate QTRSensors_calibrate#include <QTRSensors.c>
+QTRSensors.readCalibrated QTRSensors_readCalibrated#include <QTRSensors.c>
+QTRSensors.readLine QTRSensors_readLine#include <QTRSensors.c>
